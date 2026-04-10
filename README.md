@@ -4,7 +4,7 @@ This project predicts Formula 1 race finishing positions using historical race d
 
 The focus is on modeling real-world constraints like data leakage and temporal splits, while exploring how driver form, constructor performance, and qualifying results impact race outcomes.
 
-## FastF1 Position Predictor
+## F1 race prediction
 
 This repository implements an end-to-end, reproducible machine learning pipeline that uses the FastF1 API to predict Formula 1 race finishing positions at the driver level. It is designed to be recruiter-grade: clear structure, scripts instead of notebooks only, and a focus on time-aware evaluation to avoid data leakage.
 
