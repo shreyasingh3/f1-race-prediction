@@ -23,6 +23,18 @@ The target is each driver's final race finishing position (1–20), which is inh
 
 All data is built from the **FastF1** API, which wraps the official F1 timing data. The project uses the FastF1 cache to avoid repeatedly downloading raw timing data and keeps the repository lightweight by ignoring large raw/processed files by default.
 
+## Pipeline
+
+Data (FastF1 API)  
+↓  
+Feature Engineering (driver form, track history, quali)  
+↓  
+Model Training (Ridge, Random Forest)  
+↓  
+Evaluation (MAE, RMSE, Spearman)  
+↓  
+Predictions
+
 ### Feature groups
 
 - **Driver form (rolling, prior races only)**:
