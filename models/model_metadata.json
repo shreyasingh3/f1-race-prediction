@@ -1,0 +1,30 @@
+{
+  "best_model_name": "ridge",
+  "feature_columns": [
+    "grid_position",
+    "quali_position",
+    "quali_gap_to_pole",
+    "quali_gap_to_teammate",
+    "driver_avg_finish_last_3",
+    "driver_avg_finish_last_5",
+    "driver_std_finish_last_5",
+    "driver_dnf_rate_last_10",
+    "constructor_avg_finish_last_5",
+    "constructor_dnf_rate_last_10",
+    "driver_avg_finish_at_circuit",
+    "driver_avg_quali_at_circuit"
+  ],
+  "train_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "val_years": [
+    2023
+  ],
+  "test_years": [
+    2024
+  ]
+}
