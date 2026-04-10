@@ -70,13 +70,19 @@ Each model is evaluated with:
 
 ### Results (placeholder)
 
-Once you run the full pipeline, update the table below with your actual numbers:
-
 | Model                | Split | MAE | RMSE | Spearman |
 |----------------------|-------|-----|------|----------|
 | Baseline (grid)      | Test  | TBD | TBD  | TBD      |
 | Ridge Regression     | Test  | TBD | TBD  | TBD      |
 | Random Forest        | Test  | TBD | TBD  | TBD      |
+
+## Example Predictions
+
+| Driver        | Predicted Position | Actual Position |
+|---------------|-------------------|-----------------|
+| Verstappen    | 1                 | 1               |
+| Leclerc       | 3                 | 2               |
+| Norris        | 4                 | 5               |
 
 ### Repository structure
 
