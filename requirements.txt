@@ -1,0 +1,12 @@
+fastf1==3.8.1
+# Pandas/Numpy versions compatible with Python 3.13
+pandas==2.2.3
+numpy==2.2.5
+matplotlib==3.10.0
+scipy==1.15.0
+scikit-learn==1.8.0
+pyarrow
+joblib==1.3.2
+requests==2.31.0
+
+
